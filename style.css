@@ -58,6 +58,7 @@ body {
 .selection {
   border: 1px solid black;
   box-sizing: border-box;
+  max-width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,6 +98,7 @@ body {
 .characters {
   border: none;
   height: 100%;
+  width: 100%;
   font-size: 20px;
   opacity: 0;
   position: relative;
