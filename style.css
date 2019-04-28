@@ -45,10 +45,6 @@ body {
   text-decoration: none;
 }
 
-/* .name-area h3 {
-  margin-left: 30px; 
-} */
-
 .death-grid {
   display: none;
   height: 90vh;
@@ -60,6 +56,8 @@ body {
 
 .selection {
   border: 1px solid black;
+  box-sizing: border-box;
+  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -98,7 +96,7 @@ body {
 
 .characters {
   border: none;
-  width: 100%;
+  width: 33vw;
   height: 100%;
   font-size: 20px;
   opacity: 0;
@@ -117,18 +115,6 @@ body {
 
 @media only screen and (max-width: 550px) {
   .container {
-    max-width: 550px;
-    margin: 0 auto;
-  }
-
-  .death-grid {
-    display: none;
-    height: 90vh;
-    width: 100%;
-    grid-template-columns: repeat(3, auto);
-    grid-template-rows: repeat(3, auto);
-    border: 1px solid black;
-    box-sizing: border-box;
-    background: yellow;
+    overflow: hidden;
   }
 }
