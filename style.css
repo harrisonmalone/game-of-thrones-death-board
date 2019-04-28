@@ -57,6 +57,8 @@ body {
 
 .selection {
   border: 1px solid black;
+  box-sizing: border-box;
+  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -95,7 +97,7 @@ body {
 
 .characters {
   border: none;
-  width: 100%;
+  width: 33vw;
   height: 100%;
   font-size: 20px;
   opacity: 0;
@@ -110,4 +112,10 @@ body {
 .submit-btn {
   padding: 10px;
   background: red;
+}
+
+@media only screen and (max-width: 550px) {
+  .container {
+    overflow: hidden;
+  }
 }
