@@ -17,7 +17,7 @@ const renderSelect = () => {
 
 const checkIfFilled = () => {
   if (characters[8].parentNode.firstElementChild.innerText) {
-    nav.children[2].removeAttribute("hidden")
+    nav.children[1].removeAttribute("hidden")
   }
 }
 

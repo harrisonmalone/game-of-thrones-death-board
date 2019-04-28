@@ -35,9 +35,9 @@ body {
 .name-area {
   height: 10vh;
   background: rgba(1, 1, 1, 0.3);
-  /* display: flex; */
-  align-items: center;
   display: none;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .name-area a {
@@ -52,7 +52,6 @@ body {
 .death-grid {
   display: none;
   height: 90vh;
-  width: 100vw;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   border: 1px solid black;
