@@ -115,3 +115,20 @@ body {
   padding: 10px;
   background: red;
 }
+
+@media only screen and (max-width: 550px) {
+  .container {
+    width: auto;
+    margin: 0px;
+  }
+  
+  .death-grid {
+    display: none;
+    height: 90vh;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    border: 1px solid black;
+    box-sizing: border-box;
+    background: red;
+  }
+}
