@@ -1,5 +1,6 @@
 * {
   margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -51,6 +52,7 @@ body {
 .death-grid {
   display: none;
   height: 90vh;
+  width: 100vw;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   border: 1px solid black;
