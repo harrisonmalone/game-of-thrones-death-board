@@ -46,9 +46,9 @@ body {
   text-decoration: none;
 }
 
-.name-area h3 {
+/* .name-area h3 {
   margin-left: 30px; 
-}
+} */
 
 .death-grid {
   display: none;
@@ -121,7 +121,7 @@ body {
     width: auto;
     margin: 0px;
   }
-  
+
   .death-grid {
     display: none;
     height: 90vh;
@@ -129,6 +129,6 @@ body {
     grid-template-rows: repeat(3, auto);
     border: 1px solid black;
     box-sizing: border-box;
-    background: red;
+    background: blue;
   }
 }
