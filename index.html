@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game of Thrones Death Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="sign-in">
+      <h1>Name</h1>
+      <input type="text" name="name" id="name-input">
+      <div class="submit" onclick="renderSelect()">Submit</div>
+    </div>
+    <div class="name-area">
+      <div class="spacer"></div>
+      <div class="submit-btn" onclick="renderGrid()"hidden>Submit</div>
+    </div>
+    <div class="death-grid">
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+      <div class="selection">
+          <p></p>
+          <select class="characters">
+            <option disabled selected>Select a character</option>
+            <option>Jon Snow</option>
+            <option>Brienne of Tarth</option>
+            <option>Jaime Lannister</option>
+            <option>Tormund Giantsbane</option>
+            <option>Gendry</option>
+            <option>Samwell Tarly</option>
+            <option>Davos Seaworth</option>
+            <option>Tyrion Lannister</option>
+            <option>Sandor "The Hound" Clegane</option>
+            <option>Bran Stark / Three-Eyed Raven</option>
+            <option>Theon Greyjoy</option>
+            <option>Arya Stark</option>
+            <option>Sansa Stark</option>
+            <option>Jorah Mormont</option>
+            <option>Daenerys Targaryen</option>
+            <option>Grey Worm</option>
+          </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+            <option disabled selected>Select a character</option>
+            <option>Jon Snow</option>
+            <option>Brienne of Tarth</option>
+            <option>Jaime Lannister</option>
+            <option>Tormund Giantsbane</option>
+            <option>Gendry</option>
+            <option>Samwell Tarly</option>
+            <option>Davos Seaworth</option>
+            <option>Tyrion Lannister</option>
+            <option>Sandor "The Hound" Clegane</option>
+            <option>Bran Stark / Three-Eyed Raven</option>
+            <option>Theon Greyjoy</option>
+            <option>Arya Stark</option>
+            <option>Sansa Stark</option>
+            <option>Jorah Mormont</option>
+            <option>Daenerys Targaryen</option>
+            <option>Grey Worm</option>
+          </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+      <div class="selection">
+        <p></p>
+        <select class="characters">
+          <option disabled selected>Select a character</option>
+          <option>Jon Snow</option>
+          <option>Brienne of Tarth</option>
+          <option>Jaime Lannister</option>
+          <option>Tormund Giantsbane</option>
+          <option>Gendry</option>
+          <option>Samwell Tarly</option>
+          <option>Davos Seaworth</option>
+          <option>Tyrion Lannister</option>
+          <option>Sandor "The Hound" Clegane</option>
+          <option>Bran Stark / Three-Eyed Raven</option>
+          <option>Theon Greyjoy</option>
+          <option>Arya Stark</option>
+          <option>Sansa Stark</option>
+          <option>Jorah Mormont</option>
+          <option>Daenerys Targaryen</option>
+          <option>Grey Worm</option>
+        </select>
+      </div>
+    </div>
+    <div class="death-grid-display">
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+      <div class="selection-display"></div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>

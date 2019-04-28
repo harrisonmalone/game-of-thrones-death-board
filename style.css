@@ -1,0 +1,115 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sign-in {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submit {
+  padding: 10px;
+  background: red;
+}
+
+.sign-in input {
+  margin: 30px 0px;
+  height: 30px;
+  width: 80%;
+  font-size: 25px;
+}
+
+.name-area {
+  height: 10vh;
+  background: rgba(1, 1, 1, 0.3);
+  /* display: flex; */
+  align-items: center;
+  display: none;
+}
+
+.name-area a {
+  color: black;
+  text-decoration: none;
+}
+
+.name-area h3 {
+  margin-left: 30px; 
+}
+
+.death-grid {
+  display: none;
+  height: 90vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.selection {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selection p {
+  position: absolute;
+  z-index: 1;
+  max-width: 120px;
+  text-align: center;
+}
+
+.death-grid-display {
+  display: none;
+  height: 90vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+.selection-display {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.selection-display p {
+  text-align: center;
+  max-width: 120px;
+}
+
+.characters {
+  border: none;
+  width: 100%;
+  height: 100%;
+  font-size: 20px;
+  opacity: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.spacer {
+  width: 45vw;
+}
+
+.submit-btn {
+  padding: 10px;
+  background: red;
+}
