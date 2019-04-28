@@ -48,8 +48,9 @@ body {
 .death-grid {
   display: none;
   height: 90vh;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  max-width: 600px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
   border: 1px solid black;
   box-sizing: border-box;
 }
@@ -57,7 +58,6 @@ body {
 .selection {
   border: 1px solid black;
   box-sizing: border-box;
-  max-width: 400px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -96,16 +96,11 @@ body {
 
 .characters {
   border: none;
-  width: 33vw;
   height: 100%;
   font-size: 20px;
   opacity: 0;
   position: relative;
   z-index: 2;
-}
-
-.characters option {
-  width: 33vw;
 }
 
 .submit-btn {
